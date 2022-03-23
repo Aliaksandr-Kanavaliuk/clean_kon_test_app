@@ -8,7 +8,7 @@ class DayDataRepository extends DayRepository {
   DayDataRepository(this._apiUtil);
 
   @override
-  Future<Day> getDay({double latitude, double longtitude}) {
-    return _apiUtil.getDay(latitude: latitude, longitude: longitude);
+  Future<Day> getDay({required double latitude, required double longtitude}) {
+    return _apiUtil.getDay(latitude: latitude, longitude: longtitude);
   }
 }
