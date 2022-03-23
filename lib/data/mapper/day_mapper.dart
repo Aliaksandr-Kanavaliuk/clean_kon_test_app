@@ -1,4 +1,4 @@
-import 'package:ak_test_app_1/data/api/api_day.dart';
+import 'package:ak_test_app_1/data/api/model/api_day.dart';
 import 'package:ak_test_app_1/domain/model/day.dart';
 
 class DayMapper {
