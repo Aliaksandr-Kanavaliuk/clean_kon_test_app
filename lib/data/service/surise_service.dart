@@ -1,6 +1,6 @@
 import 'package:ak_test_app_1/data/api/request/get_day_body.dart';
 import 'package:dio/dio.dart';
-import 'package:ak_test_app_1/data/api/api_day.dart';
+import 'package:ak_test_app_1/data/api/model/api_day.dart';
 
 class SunriseService {
   static const _BASRE_URI = 'https://api.sunrise-sunset.org';
